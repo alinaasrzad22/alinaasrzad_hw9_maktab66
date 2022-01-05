@@ -1,0 +1,25 @@
+.navbar-nav {
+    margin-left: auto;
+}
+#navh1{
+    color: rgb(167, 167, 167);
+}
+
+.imagetext{
+    margin-bottom: 6rem;
+}
+
+.headone{
+    margin-top: 7rem;
+}
+
+.line-h{
+    position: relative;
+}  
+.line-h::after {
+    content: "";
+    position: absolute;
+    border-top: 3px solid black;
+    left: 49%;
+    width: 60px;
+}
